@@ -1,0 +1,26 @@
+{
+  "name": "github-terminal-app",
+  "version": "1.0.0",
+  "description": "github terminal app with node js",
+  "type": "module",
+  "bin": {
+    "gitapp": "./src/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Romero",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "@bdsqqq/try": "2.3.1",
+    "@clack/prompts": "0.6.3",
+    "picocolors": "1.0.0"
+  }
+}
