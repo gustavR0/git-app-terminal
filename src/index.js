@@ -48,7 +48,7 @@ const commitMsg = await text({
     if (value.length === 0) {
       return colors.red('El commit no puede ir vacio')
     }
-    if (value.length > 0) {
+    if (value.length > 50) {
       return colors.red('El commit no puede tener más de 50 caracteres')
     }
   }
