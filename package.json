@@ -4,7 +4,7 @@
   "description": "github terminal app with node js",
   "type": "module",
   "bin": {
-    "gitapp": "./src/index.js"
+    "gitapp": "./src/bin.js"
   },
   "main": "index.js",
   "scripts": {
